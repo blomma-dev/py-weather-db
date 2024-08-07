@@ -42,10 +42,10 @@ while True:
   conn.commit()
   conn.close()
 
-  # Print message indicating successful data saving
+  # indicating successful data saving
   print("Weather data for", city, "saved to database at", datetime.datetime.now())
 
-  # Wait for 30min before next iteration
-  time.sleep(1800) 
+  # Wait for 60min before next iteration
+  time.sleep(3600) 
 
 print("Program terminated")  # This line might not be reached if running in the background
