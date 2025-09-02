@@ -51,3 +51,4 @@ while True:
 print("Program terminated")  # This line might not be reached if running in the background
 
 # this is a comment for testing purposes
+# this is another comment
