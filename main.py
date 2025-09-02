@@ -49,3 +49,5 @@ while True:
   time.sleep(3600) 
 
 print("Program terminated")  # This line might not be reached if running in the background
+
+# this is a comment for testing purposes
